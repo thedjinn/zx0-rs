@@ -11,4 +11,4 @@ categories = ["compression", "development-tools", "game-development"]
 
 [dev-dependencies]
 rand = "0.8.5"
-reference = { version = "0.1.0", path = "reference" }
+reference =  { path = "./reference" }
