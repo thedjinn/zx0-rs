@@ -30,6 +30,28 @@ Additionally, there is a wealth of information provided in the [readme
 file](https://github.com/einar-saukas/ZX0#readme) of Einar Saukas' original
 implementation.
 
+## Command line tool
+
+The ZX0 Rust crate comes with a command-line version of the compressor. This
+utility can be installed using:
+
+```
+$ cargo install zx0
+```
+
+This will install a `zx0` binary that can be used to compress files from the
+command line.
+
+The command line compressor can be used like this:
+
+```
+$ zx0 input_file output_file.zx0
+```
+
+The command line compressor supports all the functionality that the library
+offers. Please run `zx0 --help` to get an overview of all the features and how
+to use them.
+
 ## Usage
 
 To start using the ZX0 compressor in your own projects, add the following line
