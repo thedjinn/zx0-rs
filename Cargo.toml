@@ -1,0 +1,14 @@
+[package]
+name = "zx0"
+version = "1.0.0"
+edition = "2021"
+authors = ["Emil Loer <emil@koffietijd.net>"]
+description = "A ZX0 compressor implementation for Rust"
+repository = "https://github.com/thedjinn/zx0-rs"
+license = "BSD-3-Clause"
+keywords = ["zx0", "compression", "gamedev", "8-bit", "z80"]
+categories = ["compression", "development-tools", "game-development"]
+
+[dev-dependencies]
+rand = "0.8.5"
+reference = { version = "0.1.0", path = "reference" }
