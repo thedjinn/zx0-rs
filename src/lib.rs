@@ -44,7 +44,7 @@ pub use compressor::{
 ///
 /// This is a shortcut for:
 ///
-/// ```rust
+/// ```text
 /// Compressor::new().compress(input).output
 /// ```
 ///
