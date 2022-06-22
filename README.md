@@ -57,7 +57,7 @@ to use them.
 To start using the ZX0 compressor in your own projects, add the following line
 to your Cargo dependencies:
 
-```
+```toml
 zx0 = "1.0.0"
 ```
 
@@ -86,7 +86,7 @@ The `Compressor` struct provides a builder-style configuration context. By
 calling a few extra methods the compressor can be configured in exactly the
 same way as the original C-based version.
 
-```
+```rust
 use zx0::Compressor;
 
 let result = Compressor::new()
@@ -101,7 +101,7 @@ Additionally, a progress callback can be specified. This callback will be
 invoked periodically during the compression process and will be provided with
 a progress value ranging from `0.0` to `1.0`:
 
-```
+```rust
 use zx0::Compressor;
 
 let result = Compressor::new()
